@@ -4,7 +4,7 @@ fibonacci = []
 for i in range(n) 
     fibonacci.append(a)
     a, b = b, a + b
-pritn(f"Fibbonacci sequence of {n} numbers: {fibonacci}")  
+print(f"Fibbonacci sequence of {n} numbers: {fibonacci}")  
 
 # Find minimum and maximum in a list
 numbers = [3, 5, 1, 10, 2, 7, 6, 4, 8, 9]
@@ -79,7 +79,7 @@ numbers = [1, 2, -9, -1 , 3, 4, -7, 5]
 sum_elements = 0
 for num in number: 
     if not num > 0:
-    sum_elements += num
+     sum_elements += num
 print(f"Sum of elements: {sum_elements}")
 
 # Factorial calculation
